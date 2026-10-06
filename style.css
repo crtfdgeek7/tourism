@@ -606,6 +606,7 @@ form {
     border-radius: 20px;
     padding: 55px 30px;
 }
+
 form>label {
     /* border: 2px solid blue; */
     display: block;
@@ -614,6 +615,7 @@ form>label {
     font-weight: 500;
     padding-top: 20px;
 }
+
 form>input {
     border: 1px solid #B7BFC7;
     width: 535px;
@@ -632,14 +634,14 @@ form>input {
     /* padding-left: 10px; */
 }
 
-.together {
+.CTA {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     align-items: center;
 }
 
-.together>button {
+.CTA button {
     border: 2px solid #A76C34;
     font-weight: 400px;
     font-size: 14px;
@@ -649,18 +651,124 @@ form>input {
     position: relative;
     text-decoration: none;
     color: #f6f0eb;
-    display: inline-block;
 }
 
-.together>button>img {
+.CTA button img {
     position: absolute;
     top: 8px;
     right: 4px;
 }
 
-.together>a {
+.CTA a {
     color: #A76C34;
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
+}
+
+footer {
+    /* border: 2px solid red; */
+    background-image: linear-gradient(rgba(167, 108, 52, 0.7), rgba(167, 108, 52, 0.5)), url(./images/map.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 430px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    gap: 160px;
+}
+
+.footer-child:nth-child(1) {
+    /* border: 2px solid brown; */
+    width: 240px;
+}
+
+.footer-child img {
+    position: relative;
+}
+
+.footer-child span {
+    position: absolute;
+    /* border: 2px solid brown; */
+    left: 190px;
+    padding-top: 10px;
+}
+
+.child-anchor {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.f1,
+.f2,
+.f3 {
+    /* border: 2px solid red; */
+    padding: 5px;
+    /* padding-top: 10px;
+    padding-bottom: 5px; */
+}
+
+.footer-child:nth-child(2)>p,
+.footer-child:nth-child(3)>p,
+.footer-child:nth-child(4)>p {
+    color: rgba(58, 38, 18, 1);
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    color: #3A2612;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.footer-child:nth-child(5) p:nth-child(1) {
+    color: #3A2612;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.footer-child:nth-child(5) label {
+    display: block;
+    color: #3A2612;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.email {
+    position: relative;
+}
+
+.footer-child:nth-child(5) input {
+    border: 2px solid #3A2612;
+    background-color: transparent;
+    width: 287px;
+    margin-top: 5px;
+    height: 52px;
+    outline: none;
+    /* border-radius: 8px 0 8px 8px; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 10px;
+    color: #3A2612;
+    font-size: 16px;
+}
+
+.footer-child:nth-child(5) button {
+    border: 2px solid #A76C34;
+    background-color: #A76C34;
+    width: 74px;
+    height: 52px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 32px;
 }

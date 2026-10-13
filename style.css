@@ -54,7 +54,7 @@ nav {
     font-weight: 500;
 }
 
-._cta {
+.right-nav a:last-child {
     border: 2px solid #A76C34;
     font-weight: 400px;
     font-size: 14px;
@@ -65,6 +65,13 @@ nav {
     text-decoration: none;
     font-size: 14px;
     color: #f6f0eb;
+    position: relative;
+}
+.right-nav a img {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10px;
+    right: 0;
 }
 
 /* .nav-bar {

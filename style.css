@@ -761,9 +761,7 @@ footer {
     margin-top: 5px;
     height: 52px;
     outline: none;
-    /* border-radius: 8px 0 8px 8px; */
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px 0 0 20px;
     padding-left: 10px;
     color: #3A2612;
     font-size: 16px;
@@ -774,8 +772,7 @@ footer {
     background-color: #A76C34;
     width: 74px;
     height: 52px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 0 20px 20px 0;
     position: absolute;
-    top: 32px;
+    top: 30px;
 }
